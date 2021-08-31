@@ -1,0 +1,34 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <html>
+        
+        <head>
+            <title>Location Selector</title>
+            <link href="style.css" rel="stylesheet" type="text/css" />
+        </head>
+        <body>
+            
+            
+            <h1><center> Which Planet should I Go? <br/> </center><br/></h1>
+            
+            
+            <div id="mainbox" class="mainbox">
+                <div id="box" class="box">
+                    <div class="box1">
+                        <span class="span1"><b>Mars</b></span>
+                        <span class="span2"><b>Jupiter</b></span>
+                        <span class="span3"><b>Saturn</b></span>
+                        <span class="span4"><b>Earth</b></span>
+                    </div>
+                    <div class="box2">
+                        <span class="span1"><b>Uranus</b></span>
+                        <span class="span2"><b>Sun</b></span>
+                        <span class="span3"><b>Venus</b></span>
+                        <span class="span4"><b>Neptune</b></span>
+                    </div>
+                </div>
+                
+                <button class="spin" onclick="{!c.myfunction}">SPIN</button>
+            </div>
+        </body>
+    </html>
+</aura:component>
